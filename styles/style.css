@@ -14,3 +14,50 @@ div + h3 + p {
 .yellow {
     color:yellow;
 }
+
+
+
+
+
+
+
+
+.lesson-container ul li:hover {
+    color: blue;
+}
+
+.lesson-container ul li:active {
+    background-color: lightgray;
+}
+
+.lesson-container ul li:focus {
+    outline: 2px solid red;
+}
+
+.lesson-container ul li:visited {
+    color: purple;
+}
+
+.lesson-container ul li {
+    text-decoration: none;
+}
+
+.lesson-container ul:first-child li {
+    background-color: #ffe0e0;
+}
+
+.lesson-container ul:last-child li {
+    background-color: #e0e0ff;
+}
+
+.lesson-container ul:nth-child(2n) li {
+    background-color: #e0ffe0;
+}
+
+.lesson-container ul:nth-of-type(2) li {
+    font-weight: bold;
+}
+
+.lesson-container ul:not(.wednesday) li {
+    font-style: italic;
+}
